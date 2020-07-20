@@ -1,7 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UserSecretsId>aspnet-ProjectsGroup.Mvc-3E1C8633-AAED-4CD3-AF76-FE1B82197F71</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest">
+            <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.6" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.6" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.6" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.6" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ProjectsGroup.Infra.Data\ProjectsGroup.Infra.Data.csproj" />
+    </ItemGroup>
 
 </Project>

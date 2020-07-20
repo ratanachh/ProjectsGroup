@@ -10,3 +10,5 @@ ProjectsGroup.Mvc/wwwroot/lib/jquery-validation/dist
 .idea/.idea.ProjectsGroup/.idea/
 ProjectsGroup.Domain/obj
 ProjectsGroup.Domain/bin
+ProjectsGroup.Infra.Data/obj
+ProjectsGroup.Infra.Data/bin
