@@ -12,3 +12,5 @@ ProjectsGroup.Domain/obj
 ProjectsGroup.Domain/bin
 ProjectsGroup.Infra.Data/obj
 ProjectsGroup.Infra.Data/bin
+ProjectsGroup.Application/bin
+ProjectsGroup.Application/obj
