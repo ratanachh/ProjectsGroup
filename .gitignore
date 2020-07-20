@@ -14,3 +14,5 @@ ProjectsGroup.Infra.Data/obj
 ProjectsGroup.Infra.Data/bin
 ProjectsGroup.Application/bin
 ProjectsGroup.Application/obj
+ProjectsGroup.Infra.IoC/bin
+ProjectsGroup.Infra.IoC/obj
