@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ProjectsGroup.Infra.Data.Context;
+using ProjectsGroup.Infra.IoC;
 using ProjectsGroup.Mvc.Data;
 
 namespace ProjectsGroup.Mvc
@@ -40,6 +41,7 @@ namespace ProjectsGroup.Mvc
                 {
                     options.UseSqlite(Configuration.GetConnectionString("ApplicationConnection"));
                 });
+            RegisterServices(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -72,6 +74,11 @@ namespace ProjectsGroup.Mvc
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+        }
+
+        private static void RegisterServices(IServiceCollection services)
+        {
+            DependencyContainer.RegisterServices(services);
         }
     }
 }
