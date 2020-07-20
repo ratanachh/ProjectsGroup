@@ -1,5 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectsGroup.Application", "ProjectsGroup.Application", "{7B14F5E2-81DC-4ABA-A280-5FFAC6CEE9D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectsGroup.Domain", "ProjectsGroup.Domain", "{FF8C681A-C44F-4E54-821C-69A7C64FA3B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectsGroup.Infra.Data", "ProjectsGroup.Infra.Data", "{3A3042C1-5CC8-492B-B31C-4BE0C6D9B3AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectsGroup.Infra.IoC", "ProjectsGroup.Infra.IoC", "{637A07A8-85A8-478E-8B39-F2A14C9C6CE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectsGroup.UI.Mvc", "ProjectsGroup.UI.Mvc", "{89D9C824-204B-42A3-8A08-2F423927A422}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
