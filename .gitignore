@@ -8,3 +8,5 @@ ProjectsGroup.Mvc/wwwroot/lib/jquery/dist/
 ProjectsGroup.Mvc/wwwroot/lib/jquery-validation/dist
 .idea/.idea.ProjectsGroup/
 .idea/.idea.ProjectsGroup/.idea/
+ProjectsGroup.Domain/obj
+ProjectsGroup.Domain/bin

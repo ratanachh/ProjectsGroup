@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# 
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectsGroup.Application", "ProjectsGroup.Application", "{7B14F5E2-81DC-4ABA-A280-5FFAC6CEE9D8}"
+#
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{7B14F5E2-81DC-4ABA-A280-5FFAC6CEE9D8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectsGroup.Domain", "ProjectsGroup.Domain", "{FF8C681A-C44F-4E54-821C-69A7C64FA3B3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{FF8C681A-C44F-4E54-821C-69A7C64FA3B3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectsGroup.Infra.Data", "ProjectsGroup.Infra.Data", "{3A3042C1-5CC8-492B-B31C-4BE0C6D9B3AA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{3A3042C1-5CC8-492B-B31C-4BE0C6D9B3AA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectsGroup.Infra.IoC", "ProjectsGroup.Infra.IoC", "{637A07A8-85A8-478E-8B39-F2A14C9C6CE0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{637A07A8-85A8-478E-8B39-F2A14C9C6CE0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectsGroup.UI.Mvc", "ProjectsGroup.UI.Mvc", "{89D9C824-204B-42A3-8A08-2F423927A422}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{89D9C824-204B-42A3-8A08-2F423927A422}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsGroup.Mvc", "ProjectsGroup.Mvc\ProjectsGroup.Mvc.csproj", "{55F33AAA-4364-4A0D-80DC-E26BD46DF5D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsGroup.Domain", "ProjectsGroup.Domain\ProjectsGroup.Domain.csproj", "{BFF8287C-5C9D-435B-BBB5-6599038CCF69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,8 +25,13 @@ Global
 		{55F33AAA-4364-4A0D-80DC-E26BD46DF5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55F33AAA-4364-4A0D-80DC-E26BD46DF5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55F33AAA-4364-4A0D-80DC-E26BD46DF5D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF8287C-5C9D-435B-BBB5-6599038CCF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF8287C-5C9D-435B-BBB5-6599038CCF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF8287C-5C9D-435B-BBB5-6599038CCF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF8287C-5C9D-435B-BBB5-6599038CCF69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{55F33AAA-4364-4A0D-80DC-E26BD46DF5D2} = {89D9C824-204B-42A3-8A08-2F423927A422}
+		{BFF8287C-5C9D-435B-BBB5-6599038CCF69} = {FF8C681A-C44F-4E54-821C-69A7C64FA3B3}
 	EndGlobalSection
 EndGlobal
