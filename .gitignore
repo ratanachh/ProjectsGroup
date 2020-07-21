@@ -1,18 +1,6 @@
 
 .idea
 .vscode
-ProjectsGroup.Mvc/bin
-ProjectsGroup.Mvc/obj
-ProjectsGroup.Mvc/wwwroot/lib/bootstrap/dist
-ProjectsGroup.Mvc/wwwroot/lib/jquery/dist/
-ProjectsGroup.Mvc/wwwroot/lib/jquery-validation/dist
-.idea/.idea.ProjectsGroup/
-.idea/.idea.ProjectsGroup/.idea/
-ProjectsGroup.Domain/obj
-ProjectsGroup.Domain/bin
-ProjectsGroup.Infra.Data/obj
-ProjectsGroup.Infra.Data/bin
-ProjectsGroup.Application/bin
-ProjectsGroup.Application/obj
-ProjectsGroup.Infra.IoC/bin
-ProjectsGroup.Infra.IoC/obj
+bin
+obj
+
